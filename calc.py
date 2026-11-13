@@ -1,13 +1,13 @@
 """Simple calculator module — the Atlas demo target.
 
-Atlas watches this file. If `add` breaks, Atlas catches it,
+Atlas watches this file. If a function breaks, Atlas catches it,
 diagnoses it, and opens a draft PR with the fix — with proof.
 """
 
 
 def add(a, b):
     """Return the sum of a and b."""
-    return a - b
+    return a + b
 
 
 def subtract(a, b):
@@ -17,7 +17,7 @@ def subtract(a, b):
 
 def multiply(a, b):
     """Return a times b."""
-    return a * b
+    return a + b
 
 
 def divide(a, b):
